@@ -1,0 +1,22 @@
+/* Custom styles for the Inter font and smooth scrolling behavior */
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth; /* Enables smooth scrolling when navigating to anchor links */
+}
+/* Hero section background image with cover properties */
+.hero-background {
+    background-image: url('brain.avif'); /* Your uploaded image for the hero section */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the background image */
+}
+z
+/* Custom colors for the Contact section, matching the provided image */
+.contact-bg {
+    background-color: #ecedf4; /* Light peach/beige color from image */
+}
+.contact-text-color {
+    color: #000000; /* SaddleBrown for text, or similar */
+}
+.contact-button-bg {
+    background-color: #4F46E5; /* Changed to a blue color (Tailwind's indigo-600 equivalent) */
+}
