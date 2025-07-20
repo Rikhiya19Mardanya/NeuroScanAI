@@ -214,7 +214,7 @@ function closeModal(modalElement) {
 
         try {
             // IMPORTANT: Replace with your actual backend API endpoint
-            const backendUrl = 'https://neuroscanai-t7p6.onrender.com/predict_tumor';
+            const backendUrl = 'https://neuroscanai2.onrender.com/predict_tumor';
             const response = await fetch(backendUrl, {
                 method: 'POST',
                 body: formData,
